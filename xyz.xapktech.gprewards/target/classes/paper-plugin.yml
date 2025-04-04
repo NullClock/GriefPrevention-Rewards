@@ -1,0 +1,12 @@
+name: GriefProtection Reward System
+version: '1.0b'
+main: xyz.xapktech.gprewards
+description: FOR SERVER ADMIN USE. Set up automatic rewards to be distributed to players in griefprotection blocks/claims.
+api-version: '1.8.8'
+bootstrapper: xyz.xapktech.gprewards.Bootstrap
+loader: xyz.xapktech.gprewards.Loader
+dependencies:
+  bootstrap:
+    GriefProtection:
+      load: BEFORE
+      required: true

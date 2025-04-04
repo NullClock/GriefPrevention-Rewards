@@ -1,0 +1,12 @@
+name: GriefPreventionRewards
+main: xyz.xapktech.gprewards.Plugin
+version: 1.0b
+api-version: 1.8.8
+description: FOR SERVER ADMIN USE. Set up automatic rewards to be distributed to players in GriefPrevention blocks/claims.
+authors: [XAPK Enterprises, Memblu, Helio Souza-Leles]
+depend: [GriefPrevention]
+commands:
+  redeem:
+    description: "Claim your daily GriefPrevention claim blocks!"
+    usage: "/<command>"
+    aliases: [cl, clm, red]

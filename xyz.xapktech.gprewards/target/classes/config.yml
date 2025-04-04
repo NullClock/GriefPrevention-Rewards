@@ -1,0 +1,14 @@
+# The daily-claims setting defines how many claim blocks are given to the user when they execute /claim
+# /claim only works once per day.
+daily-claims: 25
+
+# The database settings defines which Database the plugin will use.
+# Available databases yaml-file (DEFAUlT) | None (Bad)
+# WARNING: Choosing None will allow users to "/claim" an unlimited amount of time per day!
+database: yaml-file
+
+# Below is the DATABASE. All user/player data stored by gp rewards is BELOW.
+# Do not change ANYTHING unless you know what you're doing.
+
+data:
+  reserved_test: testing
